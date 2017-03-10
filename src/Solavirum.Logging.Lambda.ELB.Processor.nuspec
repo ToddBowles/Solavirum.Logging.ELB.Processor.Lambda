@@ -14,6 +14,7 @@
 
     <files>
         <file src="..\src\**" target="src\" />
+        <file src="..\node_modules\generic-pool\**" target="src\function\node_modules\generic-pool\" />
         <file src="..\scripts\deploy.ps1" />
         <file src="..\scripts\_Find-RootDirectory.ps1" />
         <file src="..\script-root-indicator" />

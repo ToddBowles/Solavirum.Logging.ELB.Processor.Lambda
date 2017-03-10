@@ -66,4 +66,4 @@ $newVersion = "$breaking.$patch.$number$prereleaseTag";
 $env:Path = "$rootDirectoryPath/tools/node-x64-4.3.2;$env:Path";
 
 Invoke-Npm -Root $rootDirectoryPath -Arguments @("install");
-& "$rootDirectoryPath/tools/nuget.exe" pack "$rootDirectoryPath/src/Solavirum.Logging.Lambda.ELB.Processor.nuspec" -version $newVersion -outputdirectory "$rootDirectoryPath/build-output/$newversion";
+& "$rootDirectoryPath/tools/nuget.exe" pack "$rootDirectoryPath/src/Solavirum.Logging.ELB.Processor.Lambda.nuspec" -version $newVersion -outputdirectory "$rootDirectoryPath/build-output/$newversion";

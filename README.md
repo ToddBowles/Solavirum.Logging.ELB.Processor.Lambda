@@ -11,7 +11,7 @@ You'll need Node first obviously. AWS Lambda only runs version 4.3.2, so thats f
 From a normal Windows command line this looks like the following:
 
 ```
-cd C:\dev\Solavirum.Logging.Lambda.ELB.Processor
+cd C:\dev\Solavirum.Logging.ELB.Processor.Lambda\
 SET PATH=%CD%\tools\node-x64-4.3.2\;%PATH%
 ```
 
@@ -42,3 +42,6 @@ Permissions are generally setup via roles as part of the environment configurati
 ### S3 Logs Bucket
 This bucket will receive logs from an ELB
 This bucket will be configured to send event notification to the lambda function  
+
+# Who is responsible for this terrible thing?
+While the repo lives under the Github account of [Todd Bowles](https://github.com/ToddBowles), and he was a primary contributor, this function could not have been created without the efforts of Jerry Mooyman and Robbie Bergan. When they give me some links to their online presence, I'll put proper links in here.

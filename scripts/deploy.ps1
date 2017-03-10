@@ -29,12 +29,12 @@ $here = Split-Path -Parent $MyInvocation.MyCommand.Path
 $rootDirectory = Find-RootDirectory $here
 $rootDirectoryPath = $rootDirectory.FullName
 
-$awsKey = $OctopusParameters["AWS.Deployment.Key"]
-$awsSecret = $OctopusParameters["AWS.Deployment.Secret"]
-$awsRegion = $OctopusParameters["AWS.Deployment.Region"]
+$awsKey = Get-OctopusParameter "AWS.Deployment.Key";
+$awsSecret = Get-OctopusParameter "AWS.Deployment.Secret";
+$awsRegion = Get-OctopusParameter "AWS.Deployment.Region";
 
-$environment = $OctopusParameters["Octopus.Environment.Name"]
-$version = $OctopusParameters["Octopus.Release.Number"]
+$environment = Get-OctopusParameter "Octopus.Environment.Name";
+$version = Get-OctopusParameter "Octopus.Release.Number";
 
 $functionName = Get-OctopusParameter "AWS.Lambda.Function.Name";
 

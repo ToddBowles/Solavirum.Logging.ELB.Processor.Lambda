@@ -1,5 +1,5 @@
 {
-    "name":  "Solavirum.Logging.Lambda.ELB.Processor",
+    "name":  "Solavirum.Logging.ELB.Processor.Lambda",
     "version":  "0.1.0",
     "description":  "A lambda function that can be used to aggregate ELB logs from an S3 bucket into an ELK stack via a Logstash input",
     "scripts":  

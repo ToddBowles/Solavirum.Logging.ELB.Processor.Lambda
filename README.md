@@ -19,7 +19,7 @@ It's recommended to use Visual Studio Code to debug, as this repository features
 
 ## Step-by-Step (VSCode)
 1. Place your breakpoints in the javascript files however you want
-2. Select the **Launch via NPM" option
+2. Select the **Launch via NPM** option
 3. Hit F5 to start the debugger defined in launch.json
 4. If all goes well, it should have hit your breakpoints
 

@@ -1,0 +1,28 @@
+{
+  // Use IntelliSense to learn about possible Node.js debug attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "PowerShell",
+      "request": "launch",
+      "name": "PowerShell Launch (current file)",
+      "script": "${file}",
+      "args": ["-Verbose"],
+      "cwd": "${file}"
+    },
+    {
+      "name": "Launch via NPM",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": "${workspaceRoot}/scripts/npm.cmd",
+      "runtimeArgs": [
+        "run-script",
+        "debug"
+      ],
+      "port": 5858
+    }
+  ]
+}

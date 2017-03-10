@@ -1,0 +1,20 @@
+{
+    "name":  "Solavirum.Logging.Lambda.ELB.Processor",
+    "version":  "0.1.0",
+    "description":  "A lambda function that can be used to aggregate ELB logs from an S3 bucket into an ELK stack via a Logstash input",
+    "scripts":  
+    {
+        "debug":  "node --debug-brk=5858 tests\\node.js",
+        "test":  "echo \"Error: no test specified\" \u0026\u0026 exit 1"
+    },
+    "license":  "ISC",
+    "dependencies":  
+    {
+        "aws-sdk":  "^2.7.21",
+        "aws-sdk-mock":  "^1.6.1"
+    },
+    "devDependencies":  
+    {
+        "mock-require":  "^2.0.1"
+    }
+}

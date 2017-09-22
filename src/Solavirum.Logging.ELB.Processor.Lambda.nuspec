@@ -12,11 +12,13 @@
     </metadata>
 
     <files>
-        <file src="..\src\**" target="src\" />
-        <file src="..\node_modules\generic-pool\**" target="src\function\node_modules\generic-pool\" />
-        <file src="..\scripts\deploy.ps1" />
-        <file src="..\scripts\_Find-RootDirectory.ps1" />
+        <file src="..\scripts\deployment\**" />
+        <file src="..\scripts\common\_Find-RootDirectory.ps1" target="scripts\common" />
+        <file src="..\scripts\common\Functions-Compression.ps1" target="scripts\common" />
+        <file src="..\tools\AWSCLI-x64.1.11.93.7z" target="tools\" />
+        <file src="..\tools\dist\7za-9.20.0.exe" target="tools\dist\" />
         <file src="..\script-root-indicator" />
+        <file src="publish\**" target="function" />
     </files>
 
 </package>

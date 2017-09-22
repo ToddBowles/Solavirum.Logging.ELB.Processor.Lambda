@@ -11,18 +11,6 @@
       "script": "${file}",
       "args": ["-Verbose"],
       "cwd": "${file}"
-    },
-    {
-      "name": "Launch via NPM",
-      "type": "node",
-      "request": "launch",
-      "cwd": "${workspaceRoot}",
-      "runtimeExecutable": "${workspaceRoot}/scripts/npm.cmd",
-      "runtimeArgs": [
-        "run-script",
-        "debug"
-      ],
-      "port": 5858
     }
   ]
 }

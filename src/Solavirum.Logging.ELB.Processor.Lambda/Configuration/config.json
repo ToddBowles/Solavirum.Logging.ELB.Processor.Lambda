@@ -1,0 +1,12 @@
+﻿{
+	"Logstash": {
+		"Url": "http://a-logstash-broker.com"
+	},
+	"Event": {
+			"Application": "made-up-application",
+			"Component": "made-up-component",
+			"Environment": "local",
+			"SourceModuleName": "ELB",
+			"Type": "logs"
+	} 
+}

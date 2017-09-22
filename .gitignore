@@ -1,6 +1,10 @@
-## node
-/node_modules
-npm-debug.log
+## vs
+src/.vs
 
 ## build stuff
 build-output
+src/publish
+bin
+obj
+
+tools/packages
